@@ -1,0 +1,1 @@
+Get-ChildItem -Directory | foreach { cd $_; rar a -r "../$_-1.0.rar" .; cd ..; }
